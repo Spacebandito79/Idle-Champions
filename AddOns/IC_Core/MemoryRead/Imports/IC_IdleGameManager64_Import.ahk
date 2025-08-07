@@ -113,17 +113,7 @@ this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKey
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler,"Int", [0x20])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def.Key := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def,"UTF-16", [0x18])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def.KeyHash := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def,"Int", [0x70])
-<<<<<<< Updated upstream
-this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def.Name := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def,"UTF-16", [0xa8])
-=======
-this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def.Name := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def,"UTF-16", [0x18])
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def.Name := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes.effects.effectKeysByHashedKeyName.List.parentEffectKeyHandler.def,"UTF-16", [0x38])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.upgradeHandler := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes,"Int", [0x338])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.upgradeHandler.upgradesByUpgradeId := New GameObjectStructure(this.game.gameInstances.Controller.userData.HeroHandler.heroes.upgradeHandler,"Dict", [0x20])
 this.game.gameInstances.Controller.userData.HeroHandler.heroes.upgradeHandler.upgradesByUpgradeId._CollectionKeyType := "System.Int32"
@@ -301,9 +291,6 @@ this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.upgr
 this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.upgradeButton.enabled := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.upgradeButton,"Char", [0x360])
 this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.levelUpInfoHandler := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes,"Int", [0x408])
 this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.levelUpInfoHandler.OverrideLevelUpAmount := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.levelUpInfoHandler,"Int", [0x50])
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.lastGold := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes,"Quad", [0x468])
 this.game.gameInstances.Controller.formation.slots.slotDef := New GameObjectStructure(this.game.gameInstances.Controller.formation.slots,"Int", [0x110])
 this.game.gameInstances.Controller.formation.slots.slotDef.Column := New GameObjectStructure(this.game.gameInstances.Controller.formation.slots.slotDef,"Int", [0x30])
@@ -322,26 +309,3 @@ this.game.gameInstances.ActiveCampaignData.currentRules.monsterbaseStats.BaseDPS
 this.game.gameInstances.ActiveCampaignData.currentRules.monsterbaseStats.DPSGrowthRateCurve := New GameObjectStructure(this.game.gameInstances.ActiveCampaignData.currentRules.monsterbaseStats,"Dict", [0x18])
 this.game.gameInstances.ActiveCampaignData.currentRules.monsterbaseStats.DPSGrowthRateCurve._CollectionKeyType := "System.Int32"
 this.game.gameInstances.ActiveCampaignData.currentRules.monsterbaseStats.DPSGrowthRateCurve._CollectionValType := "Engine.Numeric.Quad"
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.upgradeButton._x := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.upgradeButton,"Float", [0x278])
-this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.upgradeButton._y := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes.upgradeButton,"Float", [0x27c])
-this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes._x := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes,"Float", [0x278])
-this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes._y := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.activeBoxes,"Float", [0x27c])
-this.game.gameInstances.Screen.uiController.bottomBar.heroPanel._x := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel,"Float", [0x278])
-this.game.gameInstances.Screen.uiController.bottomBar.heroPanel._y := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel,"Float", [0x27c])
-this.game.gameInstances.Screen.uiController.bottomBar._x := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar,"Float", [0x278])
-this.game.gameInstances.Screen.uiController.bottomBar._y := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar,"Float", [0x27c])
-this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.heroScrollPane := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel,"Int", [0x3a0])
-this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.heroScrollPane._x := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.heroScrollPane,"Float", [0x278])
-this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.heroScrollPane._y := New GameObjectStructure(this.game.gameInstances.Screen.uiController.bottomBar.heroPanel.heroScrollPane,"Float", [0x27c])
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
